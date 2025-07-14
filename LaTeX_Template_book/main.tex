@@ -1,0 +1,29 @@
+\documentclass[A4]{textbook}
+\title{ENTER THE TITLE}
+\author{ENTER THE NAME}
+\input{theorems}%for theorem styles
+
+\begin{document}
+\maketitle%add this if you want
+%\includepdf{misc\--pdfpath--}%or add this to insert pdf covers
+% %--------------------------------------------------------------------------
+% %         Preface 
+% %--------------------------------------------------------------------------
+
+\subfile{chapters/preface} %remove "%" if you want
+\tableofcontents
+% %--------------------------------------------------------------------------
+% %         Main 
+% %--------------------------------------------------------------------------
+\subfile{chapters/ch1}
+
+%\subfile{---ENTER THE FILE PATH---}
+
+
+% %--------------------------------------------------------------------------
+% %         Bibliographie 
+% %--------------------------------------------------------------------------
+\nocite{*} 
+\printbibliography
+
+\end{document}
